@@ -283,7 +283,7 @@
   .section_reasons .section__title {
     grid-column: 1;
     grid-row: auto;
-    inline-size: 236px;
+    max-inline-size: 236px;
   }
 
   .section_reasons > .card {
@@ -371,7 +371,7 @@
 
   .section_reasons .section__title {
     grid-column: 1 / -1;
-    inline-size: 315px;
+    max-inline-size: 315px;
   }
 
   .section_reasons > .card {
