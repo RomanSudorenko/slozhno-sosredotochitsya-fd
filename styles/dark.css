@@ -12,5 +12,15 @@
 
   --background-color: #000028;
   --background-image: url("../images/cover-image-dark.png");
-  --accent-color: #FF0070;
+  --accent-color: #ff0070;
+  --accent-color-transparent: rgba(255, 0, 112, 0.4);
+  --decor-color: #ff0070;
+  --title-decor-text-color: #000028;
+  --header-color: #db00ff;
+  --card-font-color: #f1b2ce;
+  --section-title-color: #ff0070;
+}
+
+:root.theme-dark .header__rec {
+  display: inline;
 }

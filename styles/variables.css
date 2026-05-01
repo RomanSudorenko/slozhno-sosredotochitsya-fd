@@ -8,10 +8,10 @@
   --background-image: url("../images/cover-image-dark.png");
   --accent-color: #ff0070;
   --accent-color-transparent: rgba(255, 0, 112, 0.4);
+  --decor-color: #ff0070;
   --primary-font-size: 18px;
   --title-decor-text-color: #000028;
-  --header-color: #DB00FF;
-  --header-title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --card-font-color: #F1B2CE;
+  --header-color: #db00ff;
+  --card-font-color: #f1b2ce;
   --section-title-color: #ff0070;
 }

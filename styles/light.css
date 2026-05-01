@@ -13,4 +13,34 @@
   --background-color: #FFF1F7;
   --background-image: url("../images/cover-image-light.png");
   --accent-color: #FF8DCB;
+  --accent-color-transparent: rgba(50, 49, 45, 0.4);
+  --decor-color: #353430;
+  --title-decor-text-color: #353430;
+  --header-color: #ffc2e6;
+  --card-font-color: #353430;
+  --section-title-color: #353430;
+}
+
+:root.theme-light .header__rec {
+  display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-color: #fff1f7;
+    --background-image: url("../images/cover-image-light.png");
+
+    --accent-color: #ff8dcb;
+    --accent-color-transparent: rgba(50, 49, 45, 0.4);
+    --decor-color: #353430;
+
+    --title-decor-text-color: #353430;
+    --header-color: #ffc2e6;
+    --card-font-color: #353430;
+    --section-title-color: #353430;
+  }
+
+  .header__rec {
+    display: none;
+  }
 }
